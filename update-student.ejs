@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgister</title>
+</head>
+
+<body>
+    <h1>Update Student</h1>
+    <form action="" method="POST">
+        <input type="hidden" name="Id" value="<%= student[0].Id %>">
+        <input type="text"  name="Name" value="<%= student[0].Name %>" placeholder="Enter Name" required ><br><br>
+        <input type="Email" name="Email" value="<%= student[0].Email %>" placeholder="Email" required> <br><br>
+        <input type="Number" name="Mno" value="<%= student[0].Mno %>" placeholder="Enter Number"required> <br><br>
+        <input type="Submit" value="Submit">
+    </form>
+</body>
+
+</html>
